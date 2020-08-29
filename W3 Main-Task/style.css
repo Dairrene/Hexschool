@@ -171,7 +171,7 @@ display: none;
 	margin-bottom: 20px;
 }
 .card-menu li{
-	padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 .card-menu-list{
 	display: flex;
@@ -366,14 +366,18 @@ display: none;
   font-size: 16px;
 	color: #3F5D45;
 }
-/* max-width: 991px */
-@media (max-width: 991px){
+/* max-width: 992px */
+@media (max-width: 992px){
+.container{
+  max-width:992px;
+  }
+
+}
+/* max-width: 767px */
+@media (max-width: 767px){
 .container{
   max-width: 767px;
   }
-.logo{
-  text-align: center;
-}
 .banner{
   margin-bottom: 0;
 }
@@ -404,9 +408,6 @@ display: none;
 .footer-container{
 	max-width: 770px;
 }
-}
-/* max-width: 767px */
-@media (max-width: 767px){
 .slogan{
   display: none;
 }
